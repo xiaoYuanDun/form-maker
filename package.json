@@ -1,6 +1,6 @@
 {
   "name": "antd-form-creator",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "dist/index.cjs.js",
   "license": "MIT",
   "keywords": [
@@ -27,5 +27,7 @@
   },
   "dependencies": {
     "antd": "^4.16.13"
-  }
+  },
+  "repository": "https://github.com/xiaoYuanDun/form-maker",
+  "homepage": "https://github.com/xiaoYuanDun/form-maker"
 }

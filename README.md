@@ -1,3 +1,5 @@
+### 通过配置文件, 快速生成 form 表单
+
 1.  使用 ListItem 时, 一定要指定 listIndex 和 listKey, 他们是组成单项 name 的参数, 表单时会根据组合名进行校验
 2.  使用 ListItem 时, 渲染的行数是根据外层数据的数量决定的, 所以此时 listIndex 的优先级最高
 3.  rowExtra: 每行的额外渲染
