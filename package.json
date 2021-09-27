@@ -1,5 +1,5 @@
 {
-  "name": "form-maker",
+  "name": "antd-form-creator",
   "version": "1.0.0",
   "main": "dist/index.cjs.js",
   "license": "MIT",
