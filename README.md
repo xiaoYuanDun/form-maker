@@ -81,11 +81,11 @@ Array<[NormalCol](#NormalCol)\|[HiddenItemConfig](#HiddenItemConfig)>
 
 其中 `componentProps` 和 `itemProps` 就是最终被动态合并的 hash 对象, 可以直接提供一个对象, 也可以提供一个函数, 在每个字段控件渲染是, 其字段名会作为参数传过来, 用于自定义判断
 
-| 参数           | 说明              |         类型         | 默认值                                 |
-| :------------- | :---------------- | :------------------: | -------------------------------------- | --- |
-| key            | 字段名            |       `string`       |                                        |
-| componentProps | 字段控件动态属性  | `Record<string, any> | (name: string) => Record<string, any>` |     |
-| itemProps      | FormItem 动态属性 | `Record<string, any> | (name: string) => Record<string, any>` |     |
+| 参数           | 说明              |                              类型                              | 默认值 |
+| :------------- | :---------------- | :------------------------------------------------------------: | ------ |
+| key            | 字段名            |                            `string`                            |        |
+| componentProps | 字段控件动态属性  | `Record<string, any> \| (name: string) => Record<string, any>` |        |
+| itemProps      | FormItem 动态属性 | `Record<string, any> \| (name: string) => Record<string, any>` |        |
 
 ## Demo
 
