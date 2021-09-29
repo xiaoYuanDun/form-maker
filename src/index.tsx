@@ -167,7 +167,7 @@ const renderSingleRow: RenderRowSharp = (
   );
 };
 
-const formMaker = ({
+const formCreator = ({
   formConfig,
   runtimeProps,
   rowExtra,
@@ -185,4 +185,4 @@ const formMaker = ({
     )
   );
 
-export default formMaker;
+export default formCreator;
